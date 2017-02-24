@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIImage *backgroundImage = [UIImage imageNamed:@"Group"];
+    [[UINavigationBar appearance] setBackgroundImage: backgroundImage forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor  ]];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [self.window setBackgroundColor:[UIColor blackColor]];
+
     return YES;
 }
 

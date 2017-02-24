@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AA3168E715729C1E4407193 /* Pods_TRT_World.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43A32C81EA646F465273FE2 /* Pods_TRT_World.framework */; };
 		CE2405841E5EF5EB00184D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405831E5EF5EB00184D60 /* main.m */; };
 		CE2405871E5EF5EB00184D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405861E5EF5EB00184D60 /* AppDelegate.m */; };
-		CE24058A1E5EF5EB00184D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405891E5EF5EB00184D60 /* ViewController.m */; };
 		CE24058D1E5EF5EB00184D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE24058B1E5EF5EB00184D60 /* Main.storyboard */; };
 		CE24058F1E5EF5EB00184D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE24058E1E5EF5EB00184D60 /* Assets.xcassets */; };
 		CE2405921E5EF5EB00184D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2405901E5EF5EB00184D60 /* LaunchScreen.storyboard */; };
+		CE2405A21E5EF62800184D60 /* FeedFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405A11E5EF62800184D60 /* FeedFlowViewController.m */; };
+		CE2405AA1E5EFA6900184D60 /* HtmlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405A91E5EFA6900184D60 /* HtmlObject.m */; };
+		CE2405AD1E5EFABC00184D60 /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405AC1E5EFABC00184D60 /* Contributor.m */; };
+		CE2405B41E5EFB6300184D60 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405AF1E5EFB6300184D60 /* TFHpple.m */; };
+		CE2405B51E5EFB6300184D60 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405B11E5EFB6300184D60 /* TFHppleElement.m */; };
+		CE2405B61E5EFB6300184D60 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405B31E5EFB6300184D60 /* XPathQuery.m */; };
+		CE2405B71E5EFB9800184D60 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2405A41E5EF7A700184D60 /* libxml2.tbd */; };
+		CE2405BA1E5F0B8B00184D60 /* FeedFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2405B91E5F0B8B00184D60 /* FeedFlowCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D5741A92B561CAA62FB07B6 /* Pods-TRT World.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRT World.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRT World/Pods-TRT World.debug.xcconfig"; sourceTree = "<group>"; };
+		4520B6476A7085CE407E2F9D /* Pods-TRT World.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRT World.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRT World/Pods-TRT World.release.xcconfig"; sourceTree = "<group>"; };
+		A43A32C81EA646F465273FE2 /* Pods_TRT_World.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRT_World.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE24057F1E5EF5EB00184D60 /* TRT World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TRT World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2405831E5EF5EB00184D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE2405851E5EF5EB00184D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE2405861E5EF5EB00184D60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE2405881E5EF5EB00184D60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE2405891E5EF5EB00184D60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE24058C1E5EF5EB00184D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE24058E1E5EF5EB00184D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2405911E5EF5EB00184D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2405931E5EF5EB00184D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2405A01E5EF62800184D60 /* FeedFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedFlowViewController.h; path = ../FeedFlowViewController.h; sourceTree = "<group>"; };
+		CE2405A11E5EF62800184D60 /* FeedFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedFlowViewController.m; path = ../FeedFlowViewController.m; sourceTree = "<group>"; };
+		CE2405A41E5EF7A700184D60 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		CE2405A61E5EF8BA00184D60 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		CE2405A81E5EFA6900184D60 /* HtmlObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HtmlObject.h; path = ../HtmlObject.h; sourceTree = "<group>"; };
+		CE2405A91E5EFA6900184D60 /* HtmlObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HtmlObject.m; path = ../HtmlObject.m; sourceTree = "<group>"; };
+		CE2405AB1E5EFABC00184D60 /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
+		CE2405AC1E5EFABC00184D60 /* Contributor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributor.m; sourceTree = "<group>"; };
+		CE2405AE1E5EFB6300184D60 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		CE2405AF1E5EFB6300184D60 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		CE2405B01E5EFB6300184D60 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		CE2405B11E5EFB6300184D60 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		CE2405B21E5EFB6300184D60 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		CE2405B31E5EFB6300184D60 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		CE2405B81E5F0B8B00184D60 /* FeedFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedFlowCell.h; path = ../FeedFlowCell.h; sourceTree = "<group>"; };
+		CE2405B91E5F0B8B00184D60 /* FeedFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedFlowCell.m; path = ../FeedFlowCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +58,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2405B71E5EFB9800184D60 /* libxml2.tbd in Frameworks */,
+				9AA3168E715729C1E4407193 /* Pods_TRT_World.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D58D38CA5766CE77F45221A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D5741A92B561CAA62FB07B6 /* Pods-TRT World.debug.xcconfig */,
+				4520B6476A7085CE407E2F9D /* Pods-TRT World.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE2405761E5EF5EB00184D60 = {
 			isa = PBXGroup;
 			children = (
 				CE2405811E5EF5EB00184D60 /* TRT World */,
 				CE2405801E5EF5EB00184D60 /* Products */,
+				CE2405A31E5EF7A700184D60 /* Frameworks */,
+				7D58D38CA5766CE77F45221A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +98,17 @@
 			children = (
 				CE2405851E5EF5EB00184D60 /* AppDelegate.h */,
 				CE2405861E5EF5EB00184D60 /* AppDelegate.m */,
-				CE2405881E5EF5EB00184D60 /* ViewController.h */,
-				CE2405891E5EF5EB00184D60 /* ViewController.m */,
 				CE24058B1E5EF5EB00184D60 /* Main.storyboard */,
+				CE2405A81E5EFA6900184D60 /* HtmlObject.h */,
+				CE2405A91E5EFA6900184D60 /* HtmlObject.m */,
+				CE2405AB1E5EFABC00184D60 /* Contributor.h */,
+				CE2405AC1E5EFABC00184D60 /* Contributor.m */,
+				CE2405A01E5EF62800184D60 /* FeedFlowViewController.h */,
+				CE2405A11E5EF62800184D60 /* FeedFlowViewController.m */,
+				CE2405B81E5F0B8B00184D60 /* FeedFlowCell.h */,
+				CE2405B91E5F0B8B00184D60 /* FeedFlowCell.m */,
 				CE24058E1E5EF5EB00184D60 /* Assets.xcassets */,
+				CE2405BB1E5F0B9800184D60 /* Group */,
 				CE2405901E5EF5EB00184D60 /* LaunchScreen.storyboard */,
 				CE2405931E5EF5EB00184D60 /* Info.plist */,
 				CE2405821E5EF5EB00184D60 /* Supporting Files */,
@@ -79,6 +124,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE2405A31E5EF7A700184D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2405A61E5EF8BA00184D60 /* libxml2.2.tbd */,
+				CE2405A41E5EF7A700184D60 /* libxml2.tbd */,
+				A43A32C81EA646F465273FE2 /* Pods_TRT_World.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2405BB1E5F0B9800184D60 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				CE2405AE1E5EFB6300184D60 /* TFHpple.h */,
+				CE2405AF1E5EFB6300184D60 /* TFHpple.m */,
+				CE2405B01E5EFB6300184D60 /* TFHppleElement.h */,
+				CE2405B11E5EFB6300184D60 /* TFHppleElement.m */,
+				CE2405B21E5EFB6300184D60 /* XPathQuery.h */,
+				CE2405B31E5EFB6300184D60 /* XPathQuery.m */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE2405961E5EF5EB00184D60 /* Build configuration list for PBXNativeTarget "TRT World" */;
 			buildPhases = (
+				510C0F8A5BE840E75098EB53 /* [CP] Check Pods Manifest.lock */,
 				CE24057B1E5EF5EB00184D60 /* Sources */,
 				CE24057C1E5EF5EB00184D60 /* Frameworks */,
 				CE24057D1E5EF5EB00184D60 /* Resources */,
+				6097F8055C278AE790DE9C32 /* [CP] Embed Pods Frameworks */,
+				D95E7728201CB93503D30B1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +217,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		510C0F8A5BE840E75098EB53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6097F8055C278AE790DE9C32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRT World/Pods-TRT World-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95E7728201CB93503D30B1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRT World/Pods-TRT World-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE24057B1E5EF5EB00184D60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE24058A1E5EF5EB00184D60 /* ViewController.m in Sources */,
+				CE2405A21E5EF62800184D60 /* FeedFlowViewController.m in Sources */,
+				CE2405BA1E5F0B8B00184D60 /* FeedFlowCell.m in Sources */,
+				CE2405B51E5EFB6300184D60 /* TFHppleElement.m in Sources */,
+				CE2405B61E5EFB6300184D60 /* XPathQuery.m in Sources */,
+				CE2405B41E5EFB6300184D60 /* TFHpple.m in Sources */,
 				CE2405871E5EF5EB00184D60 /* AppDelegate.m in Sources */,
+				CE2405AD1E5EFABC00184D60 /* Contributor.m in Sources */,
 				CE2405841E5EF5EB00184D60 /* main.m in Sources */,
+				CE2405AA1E5EFA6900184D60 /* HtmlObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +394,13 @@
 		};
 		CE2405971E5EF5EB00184D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5741A92B561CAA62FB07B6 /* Pods-TRT World.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M7Z8T8NH3;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "TRT World/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eyupcimen.TRT-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +409,13 @@
 		};
 		CE2405981E5EF5EB00184D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520B6476A7085CE407E2F9D /* Pods-TRT World.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M7Z8T8NH3;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "TRT World/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eyupcimen.TRT-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +441,7 @@
 				CE2405981E5EF5EB00184D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
