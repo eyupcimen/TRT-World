@@ -12,9 +12,6 @@
 #import "Contributor.h"
 #import "FeedFlowCell.h"
 #import <QuartzCore/QuartzCore.h>
-
-
-
 #import <SDWebImage/SDWebImageManager.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <BlocksKit/UIView+BlocksKit.h>
